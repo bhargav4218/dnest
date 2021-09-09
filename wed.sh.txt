@@ -1,7 +1,0 @@
-#!/bin/bash
-yum install httpd -y
-service httpd start
-chkconfig httpd on
-cd /var/www/html
-echo " welcom to web page 1 " > index.html
-service httpd restart
